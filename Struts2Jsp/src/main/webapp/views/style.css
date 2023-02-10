@@ -1,0 +1,93 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin:0;
+}
+body{
+	background: #030919;
+	font-family:sans-serif;
+}
+.container{
+background: url(images/back.jpg) no-repeat; 
+background-size: cover;
+   height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 33px;
+}
+	
+.title {
+	color: #fbfafb;
+    font-family: sans-serif;
+    background: #0f629dd4;
+    padding: 32px;
+    border-radius: 12px;
+}
+tbody {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+table.wwFormTable {
+    background: rgb(13 200 213 / 71%);
+    display: flex;
+    padding: 41px;
+    border-radius: 12px;
+}
+input[type=text],input[type=password]{
+    width:100%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    margin:8px 0;
+    outline:none;
+    padding:8px;
+    box-sizing:border-box;
+    transition:.3s;
+  }
+  
+  input[type=text]:focus,input[type=password]:focus{
+    border-color:dodgerBlue;
+    box-shadow:0 0 8px 0 dodgerBlue;
+  }
+label.label {
+   padding: 7px;
+    background: #fbfafb;
+    border-radius: 3px;
+    color: #0c5763;
+}
+ input[type=submit]{
+  border: none;
+  background-color:rgb(15 98 157);
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+input[type=submit]:hover{
+background-color: rgb(15 98 157);
+  box-shadow:3px 3px 3px 3px black;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0px 0px 15px 10px #fafafa8f;
+  border-radius: 6px;
+}
+.main-text{
+	background-color: rgb(15 98 157);
+    padding: 41px;
+    border-radius: 12px;
+    color: #fafafa;
+}
+h4.main-child {
+    background: rgb(13 200 213 / 71%);
+    padding: 100px;
+    font-size: 31px;
+    border-radius: 12px;
+    color: currentcolor;
+}
